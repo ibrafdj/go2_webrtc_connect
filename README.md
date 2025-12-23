@@ -92,10 +92,10 @@ sudo apt update
 sudo apt install python3-pip portaudio19-dev
 
 # Install from GitHub
-pip install git+https://github.com/juhasch/go2_webrtc_connect.git
+pip install git+https://github.com/ibrafdj/go2_webrtc_connect.git
 
 # Or clone and install locally
-git clone https://github.com/juhasch/go2_webrtc_connect.git
+git clone https://github.com/ibrafdj/go2_webrtc_connect.git
 cd go2_webrtc_connect
 pip install .
 ```
@@ -105,7 +105,7 @@ pip install .
 For development work, install in editable mode with development dependencies:
 
 ```sh
-git clone https://github.com/juhasch/go2_webrtc_connect.git
+git clone https://github.com/ibrafdj/go2_webrtc_connect.git
 cd go2_webrtc_connect
 pip install -e ".[dev]"
 ```
